@@ -5,7 +5,7 @@ Each notebook is built from scratch and focuses on clean, reproducible code usin
 
 ---
 
-## 📊 Projects Overview
+## Projects Overview
 
 | Project | Description |
 |--------|-------------|
@@ -17,7 +17,7 @@ Each notebook is built from scratch and focuses on clean, reproducible code usin
 
 ---
 
-## 🧠 Technical Scope
+## Scope
 
 - Numerical methods in option pricing and stochastic modeling
 - Simulation-based approaches (Monte Carlo)
@@ -27,7 +27,7 @@ Each notebook is built from scratch and focuses on clean, reproducible code usin
 
 ---
 
-## ⚙️ Tools & Stack
+## Tools & Stack
 
 - Python (manual implementation only — no QuantLib, Keras, or scikit-learn)
 - NumPy, SciPy, Matplotlib, Pandas

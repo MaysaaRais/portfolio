@@ -38,5 +38,5 @@ Each notebook is built from scratch and focuses on clean, reproducible code usin
 
 ## 📬 Contact
 
-📧 maysaa.rais[at]gmail.com  
+📧 maysaa.rais@gmail.com  
 🔗 [linkedin.com/in/maysaarais](https://www.linkedin.com/in/maysaarais)

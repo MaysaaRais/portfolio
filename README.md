@@ -9,8 +9,8 @@ Each notebook is built from scratch and focuses on clean, reproducible code usin
 
 | Project | Description |
 |--------|-------------|
-| Black-Scholes Pricing Engine](./BlackScholes/README.md) | Option pricing using the analytical Black-Scholes formula, with full derivation of Greeks and 3D visualizations |
-| Heston Monte Carlo Framework](./HestonModel/README.md) | Monte Carlo pricing with stochastic volatility and parameter calibration using real market data |
+| [Black-Scholes Pricing Engine](./BlackScholes/README.md) | Option pricing using the analytical Black-Scholes formula, with full derivation of Greeks and 3D visualizations |
+| [Heston Monte Carlo Framework](./HestonModel/README.md) | Monte Carlo pricing with stochastic volatility and parameter calibration using real market data |
 | Exotic Option Greeks | Monte Carlo estimation of Greeks for exotic options (Asian, Barrier) |
 | Volatility Forecasting | Volatility forecasting using GARCH(1,1) vs a custom RNN implemented from scratch |
 | Anomaly Detection in Market Microstructure | Anomaly detection in trading behavior using unsupervised models on transaction data |

@@ -1,48 +1,58 @@
-# Black-Scholes Option Pricing
+# Black-Scholes Option Pricing Engine — Clean Quantitative Implementation
 
-Notebook built to implement and test the Black-Scholes model for European call and put options.  
-Everything is coded from scratch, including the approximation of the normal CDF. No pricing libraries used.
+This notebook implements the Black-Scholes model from scratch for European call and put options, with full analytical Greeks and custom normal CDF approximation. The focus is on transparency, readability, and reproducibility — no pricing libraries are used.
 
-The goal is to revisit the core formula, make sure it's coded cleanly, and explore how option prices and sensitivities behave across different parameters.
-
----
-
-## What’s covered
-
-- Analytical pricing formula (call/put)
-- Manual approximation of Φ(x) (no scipy)
-- Greeks: Delta, Gamma, Vega, Theta, Rho
-- Sensitivity curves and 3D visualizations
+It is part of a larger initiative to revisit and master core models in quantitative finance, with emphasis on self-contained, production-grade implementations.
 
 ---
 
-## Parameters used
+## 📌 What’s Covered
 
-- Spot = 100  
-- Strike = 100  
-- σ = 0.2  
-- T = 1 (year)  
-- r = 0.05  
-
-Parameters can be edited directly in the first few cells of the notebook.
+- Full pricing formula for European calls and puts  
+- Manual implementation of the standard normal CDF Φ(x)  
+- Complete Greeks: Delta, Gamma, Vega, Theta, Rho (analytical)  
+- Sensitivity plots across spot, volatility, time  
+- 3D visualizations of option price and sensitivities
 
 ---
 
-## Outputs
+## ⚙️ Default Parameters (modifiable)
 
-- Call/Put price  
-- Delta / Gamma / Vega curves  
-- Surface plots: price vs volatility & time
+- Spot: 100  
+- Strike: 100  
+- Volatility (σ): 0.2  
+- Time to maturity (T): 1 year  
+- Risk-free rate (r): 5%
 
----
-
-## Notes
-
-Optional: I might later compare this to a Monte Carlo simulation or extend to American options (numerical methods).
+These can be edited in the first few notebook cells.
 
 ---
 
-## Author
+## 📈 Outputs
 
-Maysaa Rais  
-Built this as part of a broader portfolio around pricing models and market-focused ML.
+- Option prices (call/put)  
+- Sensitivity curves for each Greek  
+- 3D surface plots for price vs volatility / time
+
+---
+
+## 🧭 Roadmap / Extensions (Optional)
+
+- Compare to Monte Carlo simulation  
+- American options via binomial tree or PDE methods  
+- Calibration to implied vol surfaces
+
+---
+
+## 🧑‍💻 Author
+
+**Maysaa Rais**  
+Quantitative Finance — Model Risk, Pricing, and Data Science  
+Part of a research portfolio revisiting foundational quant models with a modern coding standard.
+
+---
+
+📁 Notebook: `BlackScholes.ipynb`  
+📄 HTML Export: `BlackScholes.html`  
+📦 Core functions: `bs_model.py`  
+📊 Data: `stock_data_multi.csv`

@@ -1,4 +1,4 @@
-# Black-Scholes Option Pricing Engine — Clean Quantitative Implementation
+# Black-Scholes Option Pricing Engine — Quantitative Implementation
 
 This notebook implements the Black-Scholes model from scratch for European call and put options, with full analytical Greeks and custom normal CDF approximation. The focus is on transparency, readability, and reproducibility — no pricing libraries are used.
 

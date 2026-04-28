@@ -1,58 +1,13 @@
-# Black-Scholes Option Pricing Engine — Quantitative Implementation
+# Black-Scholes Pricing Engine
 
-This notebook implements the Black-Scholes model from scratch for European call and put options, with full analytical Greeks and custom normal CDF approximation. The focus is on transparency, readability, and reproducibility — no pricing libraries are used.
+Analytical implementation of the Black-Scholes-Merton model for pricing European options and calculating risk sensitivities. This project serves as the baseline for the more complex stochastic models in this repository.
 
-It is part of a larger initiative to revisit and master core models in quantitative finance, with emphasis on self-contained, production-grade implementations.
-
----
-
-## 📌 What’s Covered
-
-- Full pricing formula for European calls and puts  
-- Manual implementation of the standard normal CDF Φ(x)  
-- Complete Greeks: Delta, Gamma, Vega, Theta, Rho (analytical)  
-- Sensitivity plots across spot, volatility, time  
-- 3D visualizations of option price and sensitivities
+### Implementation Focus
+- **Analytical Solver:** Exact solution for European Call and Put prices using the BSM formula:
+  $$C = S_0 N(d_1) - K e^{-rt} N(d_2)$$
+- **The Greeks:** Manual derivation and implementation of Delta, Gamma, Vega, Theta, and Rho to monitor portfolio risk.
+- **Implied Volatility (IV):** A Newton-Raphson solver to back out IV from market prices, identifying where the market deviates from BSM assumptions.
+- **Visualization:** 3D plotting of Greeks across varying spot prices and time-to-maturity.
 
 ---
-
-## ⚙️ Default Parameters (modifiable)
-
-- Spot: 100  
-- Strike: 100  
-- Volatility (σ): 0.2  
-- Time to maturity (T): 1 year  
-- Risk-free rate (r): 5%
-
-These can be edited in the first few notebook cells.
-
----
-
-## 📈 Outputs
-
-- Option prices (call/put)  
-- Sensitivity curves for each Greek  
-- 3D surface plots for price vs volatility / time
-
----
-
-## 🧭 Roadmap / Extensions (Optional)
-
-- Compare to Monte Carlo simulation  
-- American options via binomial tree or PDE methods  
-- Calibration to implied vol surfaces
-
----
-
-## 🧑‍💻 Author
-
-**Maysaa Rais**  
-Quantitative Finance — Model Risk, Pricing, and Data Science  
-Part of a research portfolio revisiting foundational quant models with a modern coding standard.
-
----
-
-📁 Notebook: `BlackScholes.ipynb`  
-📄 HTML Export: `BlackScholes.html`  
-📦 Core functions: `bs_model.py`  
-📊 Data: `stock_data_multi.csv`
+[Link to Notebook](LINK) | [Link to Code](LINK)

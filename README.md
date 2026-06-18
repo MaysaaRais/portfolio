@@ -1,4 +1,4 @@
-# Maysaa Rais — Quant Finance Projects
+# Maysaa Rais — Finance Projects
 
 Work I built to go deeper on private markets and risk.
 

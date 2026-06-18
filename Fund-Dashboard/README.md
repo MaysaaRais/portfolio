@@ -1,46 +1,34 @@
+```markdown
 # Fund Monitoring Dashboard
 
-Dashboard for tracking a VC fund portfolio — built with OTV-style reporting needs in mind (fintech/insurtech fund, single LP, quarterly reporting cycle).
+VC portfolio monitoring tool built in Python and Streamlit. You load a CSV of portfolio companies and it gives you fund-level performance metrics and charts — the kind of thing you'd put in a quarterly LP report.
 
-Takes a CSV of portfolio companies and outputs fund-level KPIs, per-company performance, and LP-ready charts.
+Sample data is modelled on a fintech/insurtech fund (Series A to D, Europe/North America/Asia).
 
-## What it tracks
+## What it covers
 
-- Fund-level IRR, MOIC, TVPI, DPI
-- Per-company performance — invested amount, current valuation, unrealized/realized gains
-- Exit tracker — proceeds, return multiple, exit date
-- Portfolio breakdown by sector, stage, geography, vintage year
+Fund KPIs: IRR, MOIC, TVPI, DPI
 
-## Stack
+Per company: amount invested, current valuation, realized vs unrealized value
 
-Python, Pandas, Streamlit, Matplotlib.
+Exits: proceeds, return multiple, exit date
 
-## Usage
+Portfolio breakdown: by sector, stage, geography, vintage year
+
+## Run it
 
 ```bash
 pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 
-Input is a CSV with the following columns:
+## Input format
 
-| Column | Description |
-| :--- | :--- |
-| `company` | Company name |
-| `sector` | e.g. InsurTech, Fintech, PropTech |
-| `stage` | Series A / B / C / D |
-| `geography` | Europe / North America / Asia |
-| `investment_date` | YYYY-MM-DD |
-| `invested` | Amount invested (€M) |
-| `valuation` | Current valuation (€M) |
-| `status` | active / exited |
-| `exit_proceeds` | Exit proceeds if exited, else 0 |
-| `exit_date` | YYYY-MM-DD if exited, else empty |
-
-Sample data modelled on a fintech/insurtech fund structure is included.
+A CSV with these columns: company, sector, stage, geography, investment_date, invested (€M), valuation (€M), status (active or exited), exit_proceeds, exit_date.
 
 ## Contact
 
 📧 [maysaa.rais@gmail.com](mailto:maysaa.rais@gmail.com)
 🔗 [LinkedIn](https://www.linkedin.com/in/maysaarais)
 🌐 [maysaarais.github.io](https://maysaarais.github.io)
+```

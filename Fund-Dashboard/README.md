@@ -1,4 +1,3 @@
-```markdown
 # Fund Monitoring Dashboard
 
 VC portfolio monitoring tool built in Python and Streamlit. You load a CSV of portfolio companies and it gives you fund-level performance metrics and charts — the kind of thing you'd put in a quarterly LP report.
@@ -31,4 +30,3 @@ A CSV with these columns: company, sector, stage, geography, investment_date, in
 📧 [maysaa.rais@gmail.com](mailto:maysaa.rais@gmail.com)
 🔗 [LinkedIn](https://www.linkedin.com/in/maysaarais)
 🌐 [maysaarais.github.io](https://maysaarais.github.io)
-```

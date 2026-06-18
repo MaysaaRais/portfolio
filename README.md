@@ -1,6 +1,6 @@
 # Maysaa Rais — Quant Finance Projects
 
-Work I built to go deeper on private markets and risk. All implemented from scratch in Python.
+Work I built to go deeper on private markets and risk.
 
 ## Projects
 

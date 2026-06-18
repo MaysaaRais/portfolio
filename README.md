@@ -1,43 +1,22 @@
-# Strategic Investment Analytics & Quantitative Finance — Maysaa Rais
+# Maysaa Rais — Quant Finance Projects
 
-Technical portfolio focused on **Private Markets performance**, **institutional risk monitoring**, and **stochastic modeling**. 
+Work I built to go deeper on private markets and risk. All implemented from scratch in Python.
 
-All models are manually implemented from first principles using **NumPy** and **SciPy**—avoiding pre-built pricing libraries to ensure full transparency, mathematical rigor, and institutional-grade risk reporting.
-
----
-
-## Projects Overview
+## Projects
 
 | Project | Description |
 | :--- | :--- |
-| [**PE Performance & Benchmarking**](./PE-Performance/README.md) | Python engine calculating **IRR**, **MOIC**, and **Kaplan-Schoar PME**. Benchmarks private fund performance against public indices (MSCI World). |
-| [**Portfolio Look-Through & Risk**](./Portfolio-Analytics/README.md) | Risk framework tracking concentration (Sector, Geography, Vintage) for multi-asset and Fund-of-Funds mandates. Mimics Aladdin-style risk aggregation. |
-| [**LBO Scenario Simulator**](./LBO-Simulator/README.md) | Monte Carlo-based LBO modeling to determine the probability of hitting target IRRs across variable exit multiples and EBITDA growth. |
-| [**Heston Monte Carlo Framework**](./HestonModel/README.md) | Stochastic volatility pricing and parameter calibration for assets with non-constant risk regimes. |
-| [**Volatility Forecasting (GARCH vs RNN)**](./Volatility-Forecasting/README.md) | Volatility prediction comparing traditional GARCH(1,1) models with custom-built Recurrent Neural Networks. |
-| [**Black-Scholes Pricing Engine**](./BlackScholes/README.md) | Analytical option pricing and Greeks derivation used as a baseline for complex simulation models. |
+| [**PE Performance & Benchmarking**](./PE-Performance/README.md) | IRR, MOIC, and Kaplan-Schoar PME. Benchmarks a private fund against MSCI World. |
+| [**Portfolio Look-Through & Risk**](./Portfolio-Analytics/README.md) | Concentration tracking by sector, geography, and vintage for a fund-of-funds mandate. |
+| [**LBO Scenario Simulator**](./LBO-Simulator/README.md) | Monte Carlo LBO model mapping the probability of hitting target IRRs across exit multiples and EBITDA scenarios. |
+| [**Fund Monitoring Dashboard**](./Fund-Dashboard/README.md) | NAV tracking, cash flow waterfall, TVPI/DPI/MOIC and LP reporting. Built with Streamlit. |
 
----
+## Stack
 
-## Technical Scope
+Python, NumPy, SciPy, Pandas, Matplotlib, Streamlit.
 
-- **Performance Attribution:** Internal Rate of Return (IRR) and Multiple of Invested Capital (MOIC) for illiquid assets.
-- **Benchmarking:** Public Market Equivalent (PME) analysis to quantify the Private Market Premium.
-- **Institutional Risk:** Manual implementation of VaR (Value at Risk), BPV sensitivity, and duration tracking.
-- **Simulation:** Monte Carlo methods for modeling cash flow uncertainty in long-term investment cycles.
+## Contact
 
----
-
-## 🛠 Tools & Stack
-
-- **Python:** First-principles implementation using NumPy, SciPy, and Pandas.
-- **Visualization:** Matplotlib and Seaborn for risk-surface plotting and concentration heatmaps.
-- **Data Engineering:** Processing irregular PE cash flow data and large-scale institutional datasets.
-
----
-
-## 📬 Contact
-
-- 📧 [maysaa.rais@gmail.com](mailto:maysaa.rais@gmail.com)  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/maysaarais)  
-- 🌐 [Portfolio](https://maysaarais.github.io)
+📧 [maysaa.rais@gmail.com](mailto:maysaa.rais@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/maysaarais)
+🌐 [maysaarais.github.io](https://maysaarais.github.io)

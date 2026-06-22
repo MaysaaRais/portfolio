@@ -17,7 +17,6 @@ Vintage analysis: J-curve effect across fund generations, top/bottom quartile di
 ## Data source
 
 CalPERS Private Equity Program Fund Performance Review. Publicly available quarterly at calpers.ca.gov. Columns: fund name, vintage year, capital committed, cash in, cash out, cash out & remaining value, net IRR, investment multiple.
-https://www.calpers.ca.gov/investments/about-investment-office/investment-organization/pep-fund-performance-print
 
 ## Files
 

@@ -1,11 +1,25 @@
 # PE Performance & Benchmarking
 
-Technical framework for calculating private fund returns and benchmarking them against public market equivalents. 
+Performance analysis of CalPERS' private equity portfolio using their public quarterly reporting data (as of September 2025, 300+ active fund commitments).
 
-### Implementation Focus
-- **IRR & MOIC Engine:** Manual implementation of Internal Rate of Return (Newton-Raphson) and Multiple of Invested Capital to evaluate fund-level performance.
-- **PME Analysis:** Using Kaplan-Schoar PME to benchmark private equity cash flows against the MSCI World and S&P 500.
-- **Data Cleanup:** Scripts to handle irregular GP reporting, drawdowns, and distribution schedules.
+Calculates fund-level and portfolio-level IRR, MOIC, and Kaplan-Schoar PME benchmarked against MSCI World. Breaks down performance by vintage year, strategy, and geography.
 
----
-[Link to Notebook](LINK) | [Link to Code](LINK)
+## What it covers
+
+Fund-level: net IRR, investment multiple (MOIC), DPI, RVPI
+
+Portfolio-level: capital deployed vs distributed, realized vs unrealized value
+
+Benchmarking: Kaplan-Schoar PME vs MSCI World by vintage year
+
+Vintage analysis: J-curve effect across fund generations, top/bottom quartile dispersion
+
+## Data source
+
+CalPERS Private Equity Program Fund Performance Review — publicly available quarterly at calpers.ca.gov. Columns: fund name, vintage year, capital committed, cash in, cash out, cash out & remaining value, net IRR, investment multiple.
+
+## Files
+
+analysis.ipynb — full analysis and charts
+
+analysis.html — open in browser to view output
